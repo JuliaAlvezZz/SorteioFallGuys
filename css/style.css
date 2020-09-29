@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+body{
+    background-image: url('../img/background.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    font-family: 'Titan One', cursive;
+}
+
+#titulo, #canais{
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#canais{
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: -10px 10px 1px #1DF216;
+    padding-bottom: 20px;
+    padding-top: 10px
+}
+
+h1{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #05DBF2;
+    color: white;
+    font-size: 36pt;
+}
+
+h2{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:#F250B9;
+    color: white;
+    font-size: 24pt;
+    width: 650px;
+    margin: 20px auto;
+}
+
+h3{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:#F25C05;
+    color: white;
+    font-size: 20pt;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20pt;
+}
+
+i{
+    font-size: 24pt;
+}
+
+i.fa-twitch{
+    color:#6441a5;
+}
+
+i.fa-discord{
+    color:#7289da;
+}
+
+i.fa-youtube{
+    color: #c4302b;
+}
+
+i.fa-instagram{
+    color: #F250B9
+}
+
+#titulo div{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: -10px 10px 1px #F2B705;
+    padding: 20px;
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#titulo div a{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:#F250B9;
+    color: white;
+}
+
+#titulo div a:hover{
+    -webkit-text-stroke-width: 0px;
+    color: #F250B9;
+}
+
+#canais div{
+    margin: 20px 0;
+}
+
+#lista{
+    display: flex;
+    justify-content: space-around;
+}
+
+#lista div{
+    display: flex;
+    align-items: center;
+}
+
+#lista div i{
+    margin-right: 10px;
+}
+
+#yMatt{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:#c4302b;
+    color: white;
+}
+
+#yMatt:hover{
+    -webkit-text-stroke-width: 0px;
+    color: #c4302b;
+}
+
+#tjunyi, #tprileos{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:#6441a5;
+    color: white;
+}
+
+#tjunyi:hover, #tprileos:hover{
+    -webkit-text-stroke-width: 0px;
+    color: #6441a5;
+}
+
+#discord{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:#7289da;
+    color: white;
+}
+
+#discord:hover{
+    -webkit-text-stroke-width: 0px;
+    color: #7289da;
+}
+
+#grupo div{
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#insta{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:#1DF216;
+    color: white;
+    font-size: 24pt;
+}
+
+#insta:hover{
+    -webkit-text-stroke-width: 0px;
+    color: #1DF216;
+}
